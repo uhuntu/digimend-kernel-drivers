@@ -801,7 +801,7 @@ static int uclogic_params_huion_init(struct uclogic_params *params,
 	bool found;
 	/* The resulting parameters (noop) */
 	struct uclogic_params p = {0, };
-	static const char transition_ver[] = "HUION_T153_160607";
+	static const char transition_ver[] = "OEM36_E222_220802";
 	char *ver_ptr = NULL;
 	const size_t ver_len = sizeof(transition_ver) + 1;
 	__u8 *params_ptr = NULL;
